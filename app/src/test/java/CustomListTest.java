@@ -24,4 +24,9 @@ public class CustomListTest {
         // This is to test if that adding function actually worked.
         assertEquals(listSize+1, list.getCount());
     }
+
+    @Test
+    public void hasCityTest(){
+       assertEquals(true, list.hasCity("Calgary", "AB"));
+    }
 }
