@@ -42,10 +42,10 @@ public class CustomListTest {
 
     @Test
     public void countCityTest() {
-//        list.addCity(new City("Calgary", "AB"));
-//        list.addCity(new City("Halifax", "NS"));
-//        int listSize = list.getCount();
-//
-//        assertEquals(listSize, list.countCity());
+        list.addCity(new City("Calgary", "AB"));
+        list.addCity(new City("Halifax", "NS"));
+        int listSize = list.getCount();
+
+        assertEquals(listSize, list.countCity());
     }
 }
