@@ -57,7 +57,7 @@ public class CustomList extends ArrayAdapter<City> {
         return;
     }
 
-    public void deleteCity() {
+    public void deleteCity(String city, String province) {
         return;
     }
 
